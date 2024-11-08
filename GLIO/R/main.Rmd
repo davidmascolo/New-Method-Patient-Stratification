@@ -1,0 +1,14 @@
+---
+title: '01'
+author: "Davide Mascolo"
+date: "2023-12-20"
+output: html_document
+---
+
+```{r, warning = F, message = F}
+## Clean memory
+rm(list = ls())
+
+## Load all useful scripts
+source("03_Significance_GenLouvain.R")
+```
